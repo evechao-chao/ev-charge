@@ -1,0 +1,7 @@
+echo "# ev-charge" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/evechao-chao/ev-charge.git
+git push -u origin master
+git clone https://github.com/openMF/mobile-wallet.git
